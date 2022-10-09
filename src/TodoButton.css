@@ -1,0 +1,46 @@
+
+
+.fa-trash {
+    font-size: 40px;
+    color: hwb(194 8% 64% / 0.692);
+    cursor: pointer;
+    transition: all 0.2s  cubic-bezier(.58,.29,.43,.57) ;
+    position: absolute;
+}
+.fa-trash:hover {
+    font-size: 43px;
+    color: red;
+}
+
+.fa-check{
+    font-size: 30px;
+    color: rgb(110, 155, 110);
+    cursor: pointer; 
+    margin-right: 5px;  
+    transition: all 0.2s  cubic-bezier(.58,.29,.43,.57);
+}
+.fa-check:hover{
+    color: green ;
+}
+
+.todo-text {
+font-size: 40px;
+
+}
+
+.done {
+    text-decoration: line-through;
+    color: red;
+}
+
+input[type="submit"] {
+    width: 140px;
+    padding: 7px;
+    border-radius: 15px/15px;
+    background-color: rgba(31, 218, 218, 0.404);
+    cursor: pointer;
+    position:relative;
+    left: 20px;
+    top: -10px;
+   
+}

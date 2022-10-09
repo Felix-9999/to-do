@@ -1,0 +1,29 @@
+body {
+    background-color:  #a8d0ff;
+}
+.test {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin-top: 50px;
+    margin:50px auto;
+    
+}
+ input[type="text"]{
+    background-color:#A8D7FF;
+    width:350px;
+    height: 45px;
+    font-size: 45px ;
+    border: none;
+    outline: none;
+    border-bottom: solid 2px #d1d1ff;
+    box-shadow: 1px 1px #d1d1ff;    
+    border-radius: 17px 17px;
+    
+   
+}
+
+.todo-text {
+    font-size: 40px;
+    margin-left: 90px;
+}
